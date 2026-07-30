@@ -1,7 +1,13 @@
 aid: kennek
 name: Kennek
-description: 'Kennek is a company surfaced as a portfolio company of hv-capital and added to the API Evangelist
-  network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Kennek (Kennek Solutions Ltd) is a UK-based fintech providing all-in-one loan
+  management software built for specialist bridge and development lenders. The platform lets
+  lenders originate, manage, and service loans while monitoring funding lines in one place,
+  automating manual workflows, covenant and eligibility calculations, portfolio risk visibility,
+  and investor reporting so lending teams can scale without adding headcount. Founded by former
+  lenders and backed by HV Capital, Kennek is surfaced in the API Evangelist network as a
+  fintech portfolio-company profile; it publishes a marketing site and legal pages but no
+  public developer portal, API documentation, or SDKs at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/kennek/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,15 +15,51 @@ x-backed-by:
 - hv-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://kennek.io/favicon.ico
 tags:
 - Company
 - Fintech
+- Lending
+- Loan Management
+- Loan Servicing
+- Loan Origination
+- Financial Services
+- SaaS
 apis: []
+common:
+- type: DomainSecurity
+  url: security/kennek-domain-security.yml
+- type: Website
+  url: https://kennek.io
+- type: PrivacyPolicy
+  url: https://kennek.io/privacy-policy
+- type: TermsOfService
+  url: https://kennek.io/terms-of-use
+- type: Support
+  url: mailto:hello@kennek.io
+- type: LinkedIn
+  url: https://www.linkedin.com/company/kennek
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
